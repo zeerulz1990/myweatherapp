@@ -32,7 +32,7 @@ function App() {
   }
 
   const getWeatherUrl = (iconType, size) => {
-    return `http://openweathermap.org/img/wn/${iconType}@${size}.png`;
+    return `https://openweathermap.org/img/wn/${iconType}@${size}.png`;
   }
 
   return (
