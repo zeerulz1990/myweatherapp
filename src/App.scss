@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  padding: 50px 50px 50px 50px;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.weather_forecasts {
+  display: flex;
+}
+
+.weather_forecasts div {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.current_weather {
+  border: 5px solid white;
+  padding: 10px;
+}
+
+.current_weather h1 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.current_weather div {
+  font-size: 100px;
+}
+
+.current_weather_summary {
+  font-size: 50px !important;
+  padding-left: 150px;
+}
+
+.current_weather_stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.current_weather_stats div {
+  font-size: 80px;
+}
+
+.forecasts {
+  flex: 1;
+}
+
+.forecasts p {
+  font-size: 30px;
+}
+
+.city_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.city_list span {
+  font-size: 40px;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.city_list span:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.city_list span.selected {
+  color: red;
+}
